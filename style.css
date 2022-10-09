@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper {
+    width: 450px;
+    margin: auto;
+    background: #fdfdfd;
+    filter: drop-shadow(1px 1px 3px rgb(145, 143, 143));
+}
+
+#page-banner {
+    background: rgb(243, 243, 243);
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.title {
+    color: rgb(32, 32, 32);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#search > input, #search-books > input {
+    width: 90%;
+    outline: 0;
+    padding: 5px 10px;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+#book-list {
+    padding: 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 7px;
+    border-left: 3px solid rgb(173, 173, 173);
+    margin: 8px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li:hover {
+    border-left: 3px solid rgb(107, 4, 107);
+    transition: border .5s ease;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.delete {
+    padding: 8px;
+    background: rgb(107, 4, 107);
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    background: #000;
+    transition: all .3s ease;
+}
+
+#add-book {
+    padding: 0 20px;
+    width: 70%;
+    margin: 0 auto 20px auto;
+}
+
+#search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px;
+    background: rgb(107, 4, 107);
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    display: inline-block;
+}

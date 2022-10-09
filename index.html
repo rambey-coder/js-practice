@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="output"></div> -->
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Bookorama</h1>
+                <p>Books for Ninjas</p>
+
+                <form action="" id="search-books">
+                    <input type="text" placeholder="Search books...">
+                </form>
+            </div>
+        </header>
+        <div id="book-list">
+            <h2 class="title">Books to read</h2>
+            <ul>
+                <li>
+                      <span class="name">Name of the wind</span>
+                      <span class="delete">delete</span>
+                </li>
+                <li>
+                      <span class="name">The Wise Man's Fear</span>
+                      <span class="delete">delete</span>
+                </li>
+                <li>
+                      <span class="name">Kafka On the Shore</span>
+                      <span class="delete">delete</span>
+                </li>
+                <li>
+                      <span class="name">The Master and the Magarita</span>
+                      <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form action="" id="add-book">
+            <div id="check">
+                <input type="checkbox" name="" id="hide">
+                <label for="hide">Hide all books </label>
+            </div>
+            <div id="search">
+                <input type="text" placeholder="Add a book..">
+                <button>Add</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="index.js" differ></script>
+    <script src="script.js"></script>
+</body>
+</html>
